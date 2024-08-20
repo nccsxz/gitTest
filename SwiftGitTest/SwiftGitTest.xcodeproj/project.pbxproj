@@ -16,6 +16,7 @@
 		CBA18F0C2C736B8100B91B6F /* SwiftGitTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA18F0B2C736B8100B91B6F /* SwiftGitTestTests.swift */; };
 		CBA18F162C736B8100B91B6F /* SwiftGitTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA18F152C736B8100B91B6F /* SwiftGitTestUITests.swift */; };
 		CBA18F182C736B8100B91B6F /* SwiftGitTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA18F172C736B8100B91B6F /* SwiftGitTestUITestsLaunchTests.swift */; };
+		CBA18F252C7494E700B91B6F /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA18F242C7494E700B91B6F /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CBA18F112C736B8100B91B6F /* SwiftGitTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftGitTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBA18F152C736B8100B91B6F /* SwiftGitTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGitTestUITests.swift; sourceTree = "<group>"; };
 		CBA18F172C736B8100B91B6F /* SwiftGitTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGitTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CBA18F242C7494E700B91B6F /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				CBA18EFD2C736B8100B91B6F /* Assets.xcassets */,
 				CBA18EFF2C736B8100B91B6F /* LaunchScreen.storyboard */,
 				CBA18F022C736B8100B91B6F /* Info.plist */,
+				CBA18F242C7494E700B91B6F /* ViewModel.swift */,
 			);
 			path = SwiftGitTest;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			files = (
 				CBA18EF92C736B7F00B91B6F /* ViewController.swift in Sources */,
 				CBA18EF52C736B7F00B91B6F /* AppDelegate.swift in Sources */,
+				CBA18F252C7494E700B91B6F /* ViewModel.swift in Sources */,
 				CBA18EF72C736B7F00B91B6F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
